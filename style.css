@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 74px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 20px;
+  
+
+
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+
+}
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+   
+
+}
+
+.nav-left ul li a:hover {
+    color: blue;
+    font-weight: bolder;
+}
+
+
+
+.content {
+    height: 395px;
+    /*background-color: rgb(125, 125, 235);*/
+    /* background-image: url(/img/wamen.jpg); */
+    display: flex;
+
+
+}
+
+
+.content-left {
+    font-family: var(--font2);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    border: 2px solid black;
+    border-radius: 10px;
+    
+
+}
+
+
+
+
+.nav-left span {
+    font-size: 40px;
+}
+
+.home-articles{
+    
+    padding-top: 12px;
+   /* background-color: rgb(245, 187, 187);*/
+
+}
+.home-article{
+    display: flex;
+    padding: 20px;
+
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article img{
+    width: 400px;
+    
+}
+.footer {
+    height: 50px;
+   /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: var(--font1);
+    flex-direction: column;
+}
